@@ -3,3 +3,6 @@ export default function LoginPage() {
         <div>Login in</div>
     )
 }
+export const metadata ={
+    title: "Login Page",
+}

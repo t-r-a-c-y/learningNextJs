@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"
 const navLinks=[
     {name:"Register", href:"/register"},
     {name:"Login", href:"/login"},
-    {name:"Forgot Password", href:"/forgot-password"},
+    {name:"Forgot Password", href:"/forgetPass"},
 ]
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
